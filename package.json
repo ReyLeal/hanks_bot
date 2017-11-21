@@ -1,0 +1,11 @@
+{
+  "name": "hanksBot",
+  "version": "1.0.0",
+  "description": "Testing Simple features and functionality.",
+  "main": "bot.js",
+  "author": "xrey",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "winston": "^2.4.0"
+  }
+}
