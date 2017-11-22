@@ -1,6 +1,6 @@
 const express = require('express')
 const PORT = process.env.PORT || 5000
-var bot = require('./twitchActiveStreamers.js');
+var bot = require('./bot.js');
 
 var router = express.Router()
 
