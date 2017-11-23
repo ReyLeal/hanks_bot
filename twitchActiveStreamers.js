@@ -15,8 +15,7 @@ var bot = new Discord.Client({
 
 const axios = require('axios')
 
-var urls = ['https://api.twitch.tv/kraken/streams/yoda?client_id=bdr1vbjdfup8jxxg1hlzjnlagbjgqr',
-'https://api.twitch.tv/kraken/streams/mcdeeker?client_id=bdr1vbjdfup8jxxg1hlzjnlagbjgqr','https://api.twitch.tv/kraken/streams/imaqtpie?client_id=bdr1vbjdfup8jxxg1hlzjnlagbjgqr','https://api.twitch.tv/kraken/streams/gosu?client_id=bdr1vbjdfup8jxxg1hlzjnlagbjgqr','https://api.twitch.tv/kraken/streams/doublelift?client_id=bdr1vbjdfup8jxxg1hlzjnlagbjgqr','https://api.twitch.tv/kraken/streams/tsm_bjergsen?client_id=bdr1vbjdfup8jxxg1hlzjnlagbjgqr'
+var urls = ['https://api.twitch.tv/kraken/streams/mcdeeker?client_id=bdr1vbjdfup8jxxg1hlzjnlagbjgqr','https://api.twitch.tv/kraken/streams/imaqtpie?client_id=bdr1vbjdfup8jxxg1hlzjnlagbjgqr','https://api.twitch.tv/kraken/streams/gosu?client_id=bdr1vbjdfup8jxxg1hlzjnlagbjgqr','https://api.twitch.tv/kraken/streams/doublelift?client_id=bdr1vbjdfup8jxxg1hlzjnlagbjgqr','https://api.twitch.tv/kraken/streams/tsm_bjergsen?client_id=bdr1vbjdfup8jxxg1hlzjnlagbjgqr'
 ];
 
 for(var i = 0; i < urls.length; i++) {
